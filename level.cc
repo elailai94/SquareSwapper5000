@@ -1,5 +1,5 @@
 //==============================================================================
-// SquareSwapper5000
+// SquareSwapper 5000
 //
 // @author: Elisha Lai & Laxman Sooriyathas
 // @description: Module for providing functions to work with Level objects
