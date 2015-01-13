@@ -2,14 +2,14 @@
 // SquareSwapper 5000
 //
 // @author: Elisha Lai & Laxman Sooriyathas
-// @description: Module for providing functions to work with Advanced objects
+// @description: Module for providing functions to work with Advance objects
 // @version: 2.1 01/12/2014
 //==============================================================================
 
-// Advanced module (advanced.h)
+// Advance module (advance.h)
 
-#ifndef __ADVANCED_H__
-#define __ADVANCED_H__
+#ifndef __ADVANCE_H__
+#define __ADVANCE_H__
 
 #include <string>
 #include "level.h"
@@ -18,7 +18,7 @@
 class Board;
 
 // Object definition
-class Advanced: public Level {
+class Advance: public Level {
    const bool bonusUnlocked;                                      // Indicator for whether bonus features are unlocked for level
 
    // Generates a random number between min and max for the height and width of the
@@ -42,8 +42,8 @@ class Advanced: public Level {
    int generateColour();
    
 public:
-	Advanced(Board *board, std::string filename, const bool bonus); // Constructor
-	~Advanced();                                                    // Destructor
+	Advance(Board *board, std::string filename, const bool bonus); // Constructor
+	~Advance();                                                    // Destructor
 
 	// Initializes the board.
    virtual void initBoard();
