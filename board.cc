@@ -20,7 +20,7 @@
 #include "uprightsquare.h"
 #include "unstablesquare.h"
 #include "psychedelicsquare.h"
-#include "scoreBoard.h"
+#include "scoreboard.h"
 #include "window.h"
 #include <cmath>
 #include <cstdlib>
