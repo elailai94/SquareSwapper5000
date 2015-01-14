@@ -27,7 +27,7 @@ class Board {
 	Square ***theBoard;
 	TextDisplay *td;
 	Level *l;
-	ScoreBoard *sb;
+	Scoreboard *sb;
 	Xwindow *win;
 	int initialLevel;
 	std::string initBoard;
@@ -91,52 +91,52 @@ class Board {
 	int findLMatch(std::vector<Square *> &v, const int colour);
 	
 public:
-	Board(const bool graphics, std::string filename, int level, const bool bonus); // Constructor
-	~Board();                                                                      // Destructor
+   Board(const bool graphics, std::string filename, int level, const bool bonus); // Constructor
+   ~Board();                                                                      // Destructor
 
-	int getHeight() const;                                                         // Accessor to height field
-  int getWidth() const;                                                          // Accessor to width field
-	ScoreBoard *getScoreboard() const;                                             // Accessor to sb field
-	bool isBonusUnlocked() const;                                                  // Accessor to bonusUnlocked field
+   int getHeight() const;                                                         // Accessor to height field
+   int getWidth() const;                                                          // Accessor to width field
+   Scoreboard *getScoreboard() const;                                             // Accessor to sb field
+   bool isBonusUnlocked() const;                                                  // Accessor to bonusUnlocked field
 
-	void setHeight(int height);                                                    // Setter for height field
-	void setWidth(int width);                                                      // Setter for width field
-	void setDisplay(TextDisplay *t);                                               // Setter for td field
+   void setHeight(int height);                                                    // Setter for height field
+   void setWidth(int width);                                                      // Setter for width field
+   void setDisplay(TextDisplay *t);                                               // Setter for td field
 	
-	// Destroys theBoard
-	void clearBoard();
+   // Destroys theBoard
+   void clearBoard();
 
-	// Prints out grid to ostream
-	friend std::ostream &operator<<(std::ostream &out, const Board &b);
+   // Prints out grid to ostream
+   friend std::ostream &operator<<(std::ostream &out, const Board &b);
 
-	// Generates new square
-	void createSquare(const int h, const int w, const char feature, const char type, const int colour);
+   // Generates new square
+   void createSquare(const int h, const int w, const char feature, const char type, const int colour);
 
-	// Swaps square at (x,y) in direction of z
-	void swap(const int x, const int y, const int z);
+   // Swaps square at (x,y) in direction of z
+   void swap(const int x, const int y, const int z);
 
-	// Checks if all squares on board are unlocked
-	bool unlocked();
+   // Checks if all squares on board are unlocked
+   bool unlocked();
 
-	// Restarts board at current level
-	void restart();
+   // Restarts board at current level
+   void restart();
 
-	// Goes to the next level
-	void levelUp();
+   // Goes to the next level
+   void levelUp();
 
-	// Goes to previous level
-	void levelDown();
+   // Goes to previous level
+   void levelDown();
 
-	// Outputs a valid move if available
-	// Returns true if move is available
-	// Silence output if silent is true
-	bool hint(const bool silent);
+   // Outputs a valid move if available
+   // Returns true if move is available
+   // Silence output if silent is true
+   bool hint(const bool silent);
 
-	// Scrambles the board if no move is available, if override is true, scramble is forced
-	void scramble(const bool override);
+   // Scrambles the board if no move is available, if override is true, scramble is forced
+   void scramble(const bool override);
 
-	// Checks if game is won
-	bool isWon();
+   // Checks if game is won
+   bool isWon();
 };
 
 #endif
