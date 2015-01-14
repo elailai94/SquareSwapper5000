@@ -2,7 +2,7 @@
 // SquareSwapper 5000
 //
 // @author: Elisha Lai & Laxman Sooriyathas
-// @description: Module for providing functions to work with ScoreBoard objects
+// @description: Module for providing functions to work with Scoreboard objects
 // @version: 2.1 03/12/2014
 //==============================================================================
 
