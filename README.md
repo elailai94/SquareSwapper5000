@@ -1,2 +1,2 @@
 # SquareSwapper5000
-A graphical version of a game similar to Candy Crush or Bejewelled
+A graphical version of a game inspired by Candy Crush or Bejewelled
