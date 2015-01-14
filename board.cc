@@ -39,12 +39,12 @@ Board::Board(const bool graphics, string filename, int level, const bool bonus)
 	  } // if
 
     initialLevel = level;
-	  sb = new ScoreBoard(level);
+    sb = new Scoreboard(level);
 
-	  if (graphics) { // Graphical version of game required?
-		   win = new Xwindow(windowSize, windowSize);
-	  } // if
-	init(filename);
+    if (graphics) { // Graphical version of game required?
+       win = new Xwindow(windowSize, windowSize);
+     } // if
+     init(filename);
 } // Constructor
 
 // See interface (header file).
@@ -118,7 +118,7 @@ int Board::getWidth() const {
 } // getWidth
 
 // See interface (header file).
-ScoreBoard *Board::getScoreboard() const {
+Scoreboard *Board::getScoreboard() const {
    return sb;
 } // getScoreboard
 
