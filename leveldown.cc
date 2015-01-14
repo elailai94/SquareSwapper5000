@@ -9,7 +9,7 @@
 // LevelDown module (leveldown.cc)
 
 #include "leveldown.h"
-#include "Board.h"
+#include "board.h"
 
 using namespace std; // Provides direct access to std
 
