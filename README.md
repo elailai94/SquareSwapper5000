@@ -3,7 +3,8 @@
 SquareSwapper5000 is a simple tile-matching puzzle game, which is inspire by Candy Crush and Bejeweled. SquareSwapper5000 is written entirely in C++08 and builts on most UNIX-like operating systems (i.e.: Linux or Mac). The graphical component of the game is implemented using the X11 library.
 
 ### Screenshots
-
+#### Welcome Screen
+![SS5K_Screenshot1](https://cloud.githubusercontent.com/assets/7763904/7016955/b40af728-dcbd-11e4-8f0b-3ce54870f3c0.png)
 
 ### Compilation
 ```bash
