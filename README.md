@@ -43,4 +43,4 @@ make
 - For the beginner and intermediate levels, there is an addition of light blue and yellow squares. The randomly generated grid size ranges from 8x8 to 12x12 inclusviely.
 
 ### Known Issues
-- Ncurses and Xwindow library has memory leaks
+- Ncurses and X11 library has memory leaks.
