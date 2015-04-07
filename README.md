@@ -5,7 +5,10 @@ SquareSwapper5000 is a simple tile-matching puzzle game, which is inspire by Can
 ### Screenshots
 #### Welcome Screen
 ![SS5K_Screenshot1](https://cloud.githubusercontent.com/assets/7763904/7016955/b40af728-dcbd-11e4-8f0b-3ce54870f3c0.png)
+#### Board (Text Display)
 ![SS5K_Screenshot2](https://cloud.githubusercontent.com/assets/7763904/7016997/7491dbb0-dcbe-11e4-9620-3b800a20139c.png)
+#### Board (Graphical Display)
+![SS5K_Screenshot3](https://cloud.githubusercontent.com/assets/7763904/7017035/f9791ca8-dcbe-11e4-95d7-bc570de1f78f.png)
 
 ### Compilation
 ```bash
