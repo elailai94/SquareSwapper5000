@@ -30,5 +30,9 @@ make
 - **restart** clears the board and starts a new game at the same level.
 - **help** provides a list of the available game commands. A key is provided to inform the player of how the encoding in the text display corresponds to the shapes and colours used in the graphical display. Additionally, there is an objective for the completion of the current level which the player is on.
 
+### Bonus Features
+- There are welcome & exit screens.
+- For the beginner and intermediate levels, there is an addition of light blue and yellow squares. The randomly generated grid size ranges from 8x8 to 12x12 inclusviely.
+
 ### Known Issues
 - Ncurses and Xwindow library has memory leaks
