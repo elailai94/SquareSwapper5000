@@ -28,6 +28,7 @@ make
 - **levelup** increases the difficulty level of the game by one. The board is cleared and a new board is created for that level. If there is no higher level, this command has no effect.
 - **leveldown** is the same as above, but this time decreasing the difficulty level of the game by one.
 - **restart** clears the board and starts a new game at the same level.
+- **help** provides a list of the available game commands. A key is provided to inform the player of how the encoding in the text display corresponds to the shapes and colours used in the graphical display. Additionally, there is an objective for the completion of the current level which the player is on.
 
 ### Known Issues
 - Ncurses and Xwindow library has memory leaks
