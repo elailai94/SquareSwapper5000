@@ -22,7 +22,7 @@ make
 - **-unlock** unlocks additional bonus features (refer to **Bonus Features** section) in the game.
 
 #### Game Commands 
-- **swap x y z** swaps the square at the (x,y) co-ordinate with the square in the z direction (0 for north, 1 for south, 2 for west, and 3 for east)
+- **swap x y z** swaps the square at the (x,y) co-ordinate with the square in the z direction (0 for north, 1 for south, 2 for west, and 3 for east). For example, *swap 4 5 3* results in an attempt to swap the square at (4,5) to the square to the east (right) [i.e.: the square at cell location (4,6)].
 
 ### Known Issues
 - Ncurses and Xwindow library has memory leaks
