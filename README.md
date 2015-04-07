@@ -7,5 +7,14 @@ SquareSwapper5000 is a simple tile-matching puzzle game, which is inspire by Can
 make
 ```
 
+### Usage
+#### Executing Program 
+```bash
+./ss5k
+```
+#### Command-Line Options
+- **-text** runs the program in text-mode only. No graphics displayed. The default behaviour (no **-text**) is to show both text and graphics
+#### Game Commands 
+
 ### Known Issues
 - Ncurses and Xwindow library has memory leaks
