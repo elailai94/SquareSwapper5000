@@ -48,5 +48,4 @@ make
 - Ncurses and X11 library has memory leaks.
 
 ### License
-* SquareSwapper5000 is licensed under the [MIT license.](https://github.com/elailai94/SquareSwapper5000/blob/master/LICENSE)
-* All other registered trademarks and trademarks are property of their respective owners.
+SquareSwapper5000 is licensed under the [MIT license](https://github.com/elailai94/SquareSwapper5000/blob/master/LICENSE).
