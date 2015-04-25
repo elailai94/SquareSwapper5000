@@ -11,12 +11,17 @@ SquareSwapper5000 is a simple tile-matching puzzle game, which is inspire by [Ca
 ![SS5K_Screenshot3](https://cloud.githubusercontent.com/assets/7763904/7017035/f9791ca8-dcbe-11e4-95d7-bc570de1f78f.png)
 
 ### Compilation
-```bash
+```Bash
 make
 ```
 
+### Clean Build
+```Bash
+make clean
+```
+
 ### Execution
-```bash
+```Bash
 ./ss5k
 ```
 
