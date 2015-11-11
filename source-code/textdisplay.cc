@@ -19,11 +19,11 @@ TextDisplay::TextDisplay(int height, int width)
 
    // Allocates new memory from heap for theDisplay
    for (int i = 0; i < height; ++i) {
-   	  newDisplay[i] = new string[width];
-   	  // Allocates new memory from heap for each Square in a row of theDisplay
-   	  for (int j = 0; j < width; ++j) {
-   	  	 newDisplay [i][j] = "___";
-   	  } // for
+   	newDisplay[i] = new string[width];
+   	// Allocates new memory from heap for each Square in a row of theDisplay
+   	for (int j = 0; j < width; ++j) {
+   	  	newDisplay [i][j] = "___";
+   	} // for
    } // for
 
    theDisplay = newDisplay;
@@ -34,7 +34,7 @@ TextDisplay::~TextDisplay() {
    // Returns all memory allocated for each row of theDisplay back
    // to the heap.
    for (int i = 0; i < height; ++i) {
-   	  delete [] theDisplay[i];
+   	delete [] theDisplay[i];
    } // for
    delete [] theDisplay;
 } // Destructor
@@ -42,7 +42,7 @@ TextDisplay::~TextDisplay() {
 // See interface (header file).
 void TextDisplay::notify(int row, int col, char feature, char type, int colour) {
    if (colour == -1) { // Empty square signal encountered?
-   	  theDisplay[row][col] = "___";
+   	theDisplay[row][col] = "___";
    } else {
       (theDisplay[row][col]).at(0) = feature;
       (theDisplay[row][col]).at(1) = type;
