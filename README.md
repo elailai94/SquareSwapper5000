@@ -1,6 +1,6 @@
 # SquareSwapper5000
 ### About
-SquareSwapper5000 is a simple tile-matching puzzle game inspired by [Candy Crush](http://en.wikipedia.org/wiki/Candy_Crush_Saga) and [Bejeweled](http://en.wikipedia.org/wiki/Bejeweled). SquareSwapper5000 is written entirely in C++. The graphical component of the game is implemented using the X11 and Ncurses library.
+SquareSwapper5000 is a simple tile-matching puzzle game inspired by [Candy Crush](http://en.wikipedia.org/wiki/Candy_Crush_Saga) and [Bejeweled](http://en.wikipedia.org/wiki/Bejeweled). It is written entirely in C++. The graphical component of the game is implemented using the X11 and Ncurses library.
 
 ### Screenshots
 #### Welcome Screen
